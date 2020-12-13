@@ -1,11 +1,26 @@
+* {
+    font-family: American Typewriter;
+}
+
+body {
+    background-color: #808080;
+}
+
 h1{
-    background-color: orangered;
+    background-color: #a8a8a8;
+    display: flex;
+    padding: 30px;
 }
 
 
 .header {
     display: flex;
     justify-content: space-between;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
 }
 
 .pictures {
